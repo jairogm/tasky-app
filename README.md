@@ -42,10 +42,9 @@ Decentralize App is a simple Tasks' App to practice the creation of a blockchain
 ![](./static/images/screenshot.png)
 
 The stack and tools of this application is:
-
- *Truffle Framework
- *Ganache
- *Solidity
- *NextJS
-
-
+* Truffle Framework
+* Ganache
+* Solidity
+* NextJS
+* CSS Modules
+* Netlify (Deployment)
