@@ -1,0 +1,164 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-family: "Poppins" sans-serif;
+    font-weight: 450;
+    font-size: 1.8rem;
+}
+
+
+.btnConnect,
+.btnSave {
+    font-size: 1rem;
+    padding: 12px 15px;
+    border: none;
+    background: rgb(0, 128, 255);
+    border-radius: 6px;
+    cursor: pointer;
+    color: #f2f2f2;
+}
+
+.btnSave {
+    padding: 8px 15px;
+}
+
+.btnDelete {
+    font-size: 1rem;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ff000090;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 0 3rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 20px;
+}
+
+.formContainer {
+    padding: 20px 20px;
+    border: 1px solid #44444460;
+    border-radius: 4px;
+    height: 365px;
+}
+.formContainer h2{
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formContainer input {
+    height: 30px;
+    font-size: 1rem;
+    padding-left: 5px;
+}
+
+.formContainer textarea {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5px;
+    font-size: 1rem;
+}
+
+.tasksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.done,
+.card {
+    width: 100%;
+    height: auto;
+    border: 1px solid #44444460;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 10px 1px rgba(0, 128, 255, 0.5);
+}
+
+.cardHead,
+.cardBody,
+.cardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.cardHead,
+.cardFooter {
+    padding-right: 20px;
+}
+
+.cardHead {
+    border-bottom: 4px solid rgba(0, 128, 255, 0.8);
+
+}
+
+
+.done {
+    opacity: 0.7;
+    background: #c4c4c4c4;
+}
+
+.done p {
+    text-decoration: line-through;
+}
+
+
+.userInfoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    border: 1px solid #c4c4c4;
+    padding: 20px 20px;
+    margin-bottom: 10px;
+}
+
+.infoHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.infoHead h2 , .infoHead p{
+    line-height: normal;
+    margin: 0;
+}
+.infoHead p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #7777;
+}
+
+.infoLogo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-bottom: 3px;
+
+}
+
+.infoWallet{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

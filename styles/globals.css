@@ -13,4 +13,6 @@ a {
 
 * {
   box-sizing: border-box;
+  color: #111;
+  font-family: "Poppins" sans-serif;
 }
