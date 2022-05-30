@@ -1,0 +1,30 @@
+.NoProvider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btnDownload {
+    padding: 20px 30px;
+    font-size: 1rem;
+    border: none;
+    background: rgb(0, 128, 255);
+    cursor: pointer;
+    color: #f2f2f2;
+    border-radius: 6px;
+}
+
+.link {
+    color: rgb(0, 128, 255);
+}
+
+.link:hover {
+    text-decoration: underline;
+}

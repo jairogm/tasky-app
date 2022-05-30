@@ -12,6 +12,7 @@ import Card from '../components/Card'
 
 //Funtions
 import { createTask, deleteTask, getMyTasks } from "../functions/TaskFunctions"
+import NoProvider from '../components/NoProvider'
 const Home = () => {
 
   const [isThereProvider, setIsThereProvider] = useState(false)
@@ -103,7 +104,7 @@ const Home = () => {
 
 
       <main className={styles.main}>
-        {isThereProvider ? <>NO METASMASK INSTALLED</> :
+        {isThereProvider ? <NoProvider /> :
           <>
             {isloggedIn ? <>
               <div className={styles.container}>
@@ -158,7 +159,7 @@ const Home = () => {
               <>
                 <div className={styles.container}>
 
-                  <NotConnected />
+                  <NotConnected connectWalletHandler={connectWalletHandler} />
                 </div>
               </>
 
