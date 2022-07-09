@@ -115,7 +115,7 @@ const Home = () => {
                         <IoWalletOutline size={30} />
                         <h2>TASKY (BUGS)</h2>
                       </div>
-                      <p>Decentralized task app :)</p>
+                      <p>Decentralized task app 😊</p>
                     </div>
                     <div className={styles.infoWallet}>
                       {/* <IoWalletOutline size={20} /> */}
